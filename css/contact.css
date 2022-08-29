@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+#contact {
+  height: 15vh;
+  color: #6c6f72;
+  background-color: #f7f7f7;
+}
+#contact a {
+  color: #646464;
+  padding: 40px 30px 40px 0px;
+  display: inline-block;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+#contact .contact-us {
+  position: relative;
+  color: blue;
+}
+#contact .contact-us::before {
+  padding-right: 8px;
+  color: #646464;
+  content: "\f054";
+  font-family: var(--font-awesome);
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-top: 2px;
+}
+#contact .contact-main .contacttxt {
+  padding-top: 140px;
+  width: 60%;
+}
+#contact .contact-main .contacttxt .how .dot {
+  display: inline-block;
+  width: 10px;
+  padding: 1px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: blue;
+}
+#contact .contact-main .contacttxt .how .may {
+  display: inline-block;
+  padding: 20px 0px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+#contact .contact-main .contacttxt p {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: black;
+}
+#contact .contact-main .contacttxt .lorem {
+  font-family: sans-serif;
+  font-size: 16px;
+  display: inline-block;
+  padding-bottom: 40px;
+}
+#contact .contact-main .contact-left .contact-icons .contact-icon {
+  padding: 10px 30px 30px 0px;
+  width: 70%;
+}
+#contact .contact-main .contact-left .contact-icons .contact-icon .map {
+  background-color: blue;
+  color: white;
+  margin-right: 20px;
+  padding: 10px 15px;
+  border-radius: 10%;
+}
+#contact .contact-main .contact-left .contact-icons .contact-icon .email {
+  background-color: blue;
+  color: white;
+  margin-right: 20px;
+  padding: 10px 15px;
+  border-radius: 10%;
+}
+#contact .contact-main .contact-left .contact-icons .contact-icon .telephone {
+  background-color: blue;
+  color: white;
+  margin-right: 20px;
+  padding: 10px 15px;
+  border-radius: 10%;
+}
+#contact .contact-main .contact-left .contact-icons .contact-icon .earth {
+  background-color: blue;
+  color: white;
+  margin-right: 20px;
+  padding: 10px 15px;
+  border-radius: 10%;
+}
+#contact .contact-main .contact-left .contact-icons .contact-icon .text {
+  padding-right: 10px;
+}
+#contact .contact-main .contact-right {
+  width: 70%;
+  max-height: 140vh;
+  color: #6c6f72;
+  background-color: #f7f7f7;
+  margin-top: 90px;
+  padding: 90px 40px;
+}
+#contact .contact-main .contact-right input {
+  width: 100%;
+  padding: 10px 100px 10px 10px;
+}
+#contact .contact-main .contact-right .field {
+  width: 100%;
+  padding-bottom: 40px;
+}
+#contact .contact-main .contact-right h4 {
+  color: black;
+  display: block;
+  padding-bottom: 20px;
+}
+#contact .contact-main .contact-right span {
+  display: block;
+}
+#contact .contact-main .contact-right .submit {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 25px;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 7%;
+  font-weight: 600;
+  font-family: sans-serif;
+  background-color: #2962ff;
+  transition: 0.3s ease-in-out;
+}
+#contact .contact-main .contact-right .submit:hover {
+  background-color: #03359b;
+}
+#contact .maps {
+  padding: 90px;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .contactt .contact-main {
+    display: flex;
+    flex-direction: column;
+  }
+  .contactt .contact-main .contact-left {
+    width: 100%;
+  }
+  .contactt .contact-main .contact-right {
+    width: 100%;
+    padding: 90px 270px;
+  }
+}/*# sourceMappingURL=contact.css.map */
